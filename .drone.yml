@@ -1,0 +1,8 @@
+publish:
+    docker:
+        repo: wizehub/atul-wizni_test-project
+        username: $$DOCKER_USER
+        password: $$DOCKER_PASS
+        email: $$DOCKER_EMAIL
+        tag: master
+        insecure: false
